@@ -16,30 +16,6 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_twtms")
 
-[node name="Button" type="Button" parent="."]
-layout_mode = 0
-offset_left = 490.0
-offset_top = 388.0
-offset_right = 647.0
-offset_bottom = 419.0
-text = "开始游戏"
-
-[node name="Button2" type="Button" parent="."]
-layout_mode = 0
-offset_left = 490.0
-offset_top = 436.0
-offset_right = 647.0
-offset_bottom = 467.0
-text = "读取存档"
-
-[node name="Button3" type="Button" parent="."]
-layout_mode = 0
-offset_left = 489.0
-offset_top = 484.0
-offset_right = 646.0
-offset_bottom = 517.0
-text = "设置"
-
 [node name="CenterContainer" type="CenterContainer" parent="."]
 layout_mode = 0
 offset_left = 1.0
@@ -55,6 +31,30 @@ theme_override_font_sizes/font_size = 50
 text = "Gereal Fish"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 486.0
+offset_top = 384.0
+offset_right = 643.0
+offset_bottom = 415.0
+text = "开始游戏"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 487.0
+offset_top = 435.0
+offset_right = 644.0
+offset_bottom = 466.0
+text = "读取存档"
+
+[node name="Button3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 489.0
+offset_top = 484.0
+offset_right = 646.0
+offset_bottom = 517.0
+text = "设置"
 
 [connection signal="pressed" from="Button" to="." method="_Entering_game"]
 [connection signal="pressed" from="Button2" to="." method="_Loading_game"]
