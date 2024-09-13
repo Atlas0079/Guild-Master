@@ -1,0 +1,26 @@
+# Godot-specific ignore rules
+
+# System specific
+.export/
+export.cfg
+export_presets.cfg
+
+# Cache files
+*.import/
+*.mono/
+*.mono_temp/
+
+# OS generated files (e.g., Windows/OSX/Linux)
+.DS_Store
+thumbs.db
+
+# For Godot Mono (C#) projects
+.mono/
+*.csproj
+*.sln
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+.idea/
+.vscode/

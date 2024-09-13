@@ -1,0 +1,5 @@
+res://Scene/TitleScreen.tscn
+res://Scene/Title_Entering_game.tscn
+res://Scene/Title_Loading_game.tscn
+res://Scene/Title_Game_Setting.tscn
+res://Script/Title.gd
