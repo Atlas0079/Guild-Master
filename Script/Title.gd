@@ -2,18 +2,23 @@ extends Control
 
 # 进入游戏的函数
 func _Entering_game() -> void:
-	# 假设游戏场景是 "res://scenes/game_scene.tscn"
-	var game_scene = "res://scenes/game_scene.tscn"
 	# 切换到游戏场景
-	get_tree().change_scene(game_scene)
+	get_tree().change_scene_to_file("res://Scene/game_scene.tscn")
 	print("进入游戏场景...")
 
 # 游戏设置的函数
 func _Game_Setting() -> void:
-	# 这里以设置音量为例
-	var master_volume = 0.5  # 设置主音量为 50%
-	AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Master"), linear_to_db(master_volume))
-	print("音量设置为: ", master_volume * 100, "%")
+	pass
+	
+	# 将传入的音量限制在0.0到1.0之间
+	#var master_volume = clamp(volume, 0.0, 1.0)
+	
+	# 设置主音量，转化为分贝值
+	#AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Master"), linear_to_db(master_volume))
+	
+	# 输出当前的音量百分比
+	#print("音量设置为: ", master_volume * 100, "%")
+
 
 # 读取存档的函数
 func _Loading_game() -> void:
