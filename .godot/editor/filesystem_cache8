@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726735443
+::res://::1726738314
 ::res://assets/::1726669164
 ::res://assets/texture/::1726669164
 ::res://assets/texture/character/::1726669251
@@ -89,10 +89,12 @@ wooden door locked horizontal.png::CompressedTexture2D::5398076072708513051::172
 wooden door open horizontal.png::CompressedTexture2D::4192802982290265884::1726669164::1726669250::1::::<><>::
 wooden floor.png::CompressedTexture2D::8589624835582731299::1726669164::1726669250::1::::<><>::
 workbench.png::CompressedTexture2D::1729713018258393628::1726669164::1726669250::1::::<><>::
-::res://assets/texture/tileset/::1726669251
+::res://assets/texture/tileset/::1726760680
+bar_counter.png::CompressedTexture2D::5173754858706631029::1726760680::1726760681::1::::<><>::
+bar_counter_leftlower_corner.png::CompressedTexture2D::425709731915347503::1726749277::1726749279::1::::<><>::
 tileset.png::CompressedTexture2D::9095649757849202765::1726669164::1726669251::1::::<><>::
-::res://Scene/::1726719041
-game_scene.tscn::PackedScene::3135704542225458181::1726719041::0::1::::<><>::uid://d2uaa1fc42pv6::::res://assets/texture/tileset/tileset.png<>uid://cnnr5ehnahoko::::res://assets/texture/character/female tinker.png<>uid://d0xbno78sfdat::::res://assets/texture/character/quantum mechanic.png<>uid://b3fy6qwswlb7c::::res://assets/texture/character/male paladin.png<>uid://b37fupvma7tgf::::res://assets/texture/character/undead slayer.png
-TitleScreen.tscn::PackedScene::4956969992966071077::1726669164::0::1::::<><>::uid://cc3spoahv8kbm::::res://new_theme.tres<>res://Script/Title.gd
+::res://Scene/::1726760253
+game_scene.tscn::PackedScene::3135704542225458181::1726760253::0::1::::<><>::uid://d2uaa1fc42pv6::::res://assets/texture/tileset/tileset.png<>uid://cfyg8ssok31cj::::res://assets/texture/tileset/bar_counter.png
+TitleScreen.tscn::PackedScene::4956969992966071077::1726735465::0::1::::<><>::res://Script/Title.gd
 ::res://Script/::1726669164
 Title.gd::GDScript::-1::1726669164::0::1::::<>Control<>::
