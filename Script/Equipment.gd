@@ -1,7 +1,6 @@
 extends Resource
 
 # 通用装备类
-class_name Equipment
 
 # 装备属性
 var name: String = ""

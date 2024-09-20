@@ -4,6 +4,9 @@
 .export/            # Godot's exported game binaries
 import/             # Godot's imported assets cache
 .godot/             # Godot internal metadata, cache, and layout files
+# Ignore Godot editor cache and metadata files
+.godot/editor/filesystem_update*
+.godot/editor/project_metadata.cfg
 
 # Ignore specific Godot files
 *.godot             # Ignore all .godot related files
