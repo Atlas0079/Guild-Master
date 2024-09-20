@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726823499
+::res://::1726830346
 ::res://assets/::1726821672
 ::res://assets/texture/::1726821672
 ::res://assets/texture/character/::1726821862
@@ -109,13 +109,14 @@ wooden wall top left corner.png::CompressedTexture2D::2629142066581842452::17268
 wooden wall top right corner.png::CompressedTexture2D::6084175872716137209::1726821672::1726821861::1::::<><>::
 wooden wall vertical.png::CompressedTexture2D::4810645311080937446::1726821672::1726821861::1::::<><>::
 workbench.png::CompressedTexture2D::1729713018258393628::1726821672::1726821861::1::::<><>::
-::res://assets/texture/tileset/::1726823483
+::res://assets/texture/tileset/::1726831647
 bar_counter.png::CompressedTexture2D::5173754858706631029::1726821672::1726821861::1::::<><>::
+book_case.png::CompressedTexture2D::3858181293285618239::1726831647::1726831649::1::::<><>::
 tileset.png::CompressedTexture2D::9095649757849202765::1726821672::1726821861::1::::<><>::
 wooden wall vertical.png::CompressedTexture2D::9026876422895693374::1726823484::1726823501::1::::<><>::
-::res://Scene/::1726823232
-game_scene.tscn::PackedScene::3135704542225458181::1726823232::0::1::::<><>::
-TitleScreen.tscn::PackedScene::4956969992966071077::1726821672::0::1::::<><>::res://Script/Title.gd
+::res://Scene/::1726830389
+game_scene.tscn::PackedScene::3135704542225458181::1726830389::0::1::::<><>::uid://d1uxloh6xac6i::::res://assets/texture/tileset/wooden wall vertical.png<>uid://cfyg8ssok31cj::::res://assets/texture/tileset/bar_counter.png
+TitleScreen.tscn::PackedScene::4956969992966071077::1726830389::0::1::::<><>::res://Script/Title.gd
 ::res://Script/::1726821672
 Equipment.gd::GDScript::-1::1726821672::0::1::::Equipment<>Resource<>::
 Game_Manager.gd::GDScript::-1::1726821672::0::1::::<>Node<>::
