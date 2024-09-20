@@ -1,0 +1,41 @@
+# Godot-specific ignores
+
+# Godot's exported binaries and caches
+.export/            # Godot's exported game binaries
+import/             # Godot's imported assets cache
+.godot/             # Godot internal metadata, cache, and layout files
+
+# Ignore specific Godot files
+*.godot             # Ignore all .godot related files
+*.import            # Ignore asset import metadata
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.pck
+
+# Godot editor settings
+.editor_settings-*.cfg
+.godot/editor_settings-*.cfg
+
+# Backup and temporary files
+*.tmp
+*.bak
+*.swap
+
+# OS-specific files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~

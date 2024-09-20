@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://fx3r044fo32b"
+=======
 uid="uid://boi0mlx560mxi"
+>>>>>>> 44448b8262845977acf3870b48cbd7cf2343f994
 path="res://.godot/imported/32x32_chair02_blue.png-a5989559530973a0918c886bab76fc12.ctex"
 metadata={
 "vram_texture": false

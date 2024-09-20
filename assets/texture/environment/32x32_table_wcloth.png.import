@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
+uid="uid://cueq7icwh3sfq"
+=======
 uid="uid://do81yehkcfxdg"
+>>>>>>> 44448b8262845977acf3870b48cbd7cf2343f994
 path="res://.godot/imported/32x32_table_wcloth.png-496250ff6629ebc5f823b651b71f7c14.ctex"
 metadata={
 "vram_texture": false
