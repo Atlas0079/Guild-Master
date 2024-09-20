@@ -15,6 +15,10 @@ run/main_scene="res://Scene/TitleScreen.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameManager="*res://Script/Game_Manager.gd"
+
 [rendering]
 
 renderer/rendering_method="mobile"
