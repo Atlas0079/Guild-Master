@@ -1,2 +1,6 @@
-res://Scene/game_scene.tscn
-res://Scene/TitleScreen.tscn
+res://Script/Game_Manager.gd
+res://Script/Title.gd
+res://Script/Equipment.gd
+res://Script/NPC.gd
+res://Script/Consumable.gd
+res://Script/item.gd
