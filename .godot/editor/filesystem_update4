@@ -1,10 +1,9 @@
-res://Scene/game_scene.tscn
 res://Script/Equipment.gd
-res://Script/Game_Manager.gd
-res://Script/NPC.gd
-res://Script/Title.gd
 res://Script/Location.gd
-res://Script/item.gd
-res://Script/Consumable.gd
-res://Script/Misc.gd
 res://Script/MiscItem.gd
+res://Script/item.gd
+res://Script/Game_Manager.gd
+res://Script/Consumable.gd
+res://Script/NPC.gd
+res://Script/LLM.gd
+res://Script/Title.gd

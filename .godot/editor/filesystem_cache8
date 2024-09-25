@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726815872
+::res://::1726906915
 ::res://assets/::1726804607
 ::res://assets/texture/::1726804607
-::res://assets/texture/character/::1726804607
+::res://assets/texture/character/::1726815875
 acolyte.png::CompressedTexture2D::886803803320051483::1726804607::1726815875::1::::<><>::
 elf female wizard.png::CompressedTexture2D::3474930086557876062::1726804607::1726815875::1::::<><>::
 elf male ranger.png::CompressedTexture2D::6758914128418432370::1726804607::1726815875::1::::<><>::
@@ -34,10 +34,10 @@ satyr female shaman.png::CompressedTexture2D::3765735506941915022::1726804607::1
 satyr male healer.png::CompressedTexture2D::6805622947106220916::1726804607::1726815875::1::::<><>::
 transmuter.png::CompressedTexture2D::352493069831464892::1726804607::1726815875::1::::<><>::
 undead slayer.png::CompressedTexture2D::4418108515367500765::1726804607::1726815875::1::::<><>::
-::res://assets/texture/enemy/::1726804607
+::res://assets/texture/enemy/::1726815875
 orc grunt.png::CompressedTexture2D::8489939218496904335::1726804607::1726815875::1::::<><>::
 skeleton.png::CompressedTexture2D::8914960103306944265::1726804607::1726815875::1::::<><>::
-::res://assets/texture/environment/::1726804607
+::res://assets/texture/environment/::1726815875
 16x32_pottedplant_beige.png::CompressedTexture2D::6231499803975306473::1726804607::1726815874::1::::<><>::
 16x32_pottedplant_red.png::CompressedTexture2D::2349001278926740200::1726804607::1726815874::1::::<><>::
 32x32_chair01.png::CompressedTexture2D::4462006854734547647::1726804607::1726815874::1::::<><>::
@@ -109,14 +109,19 @@ wooden wall top left corner.png::CompressedTexture2D::2629142066581842452::17268
 wooden wall top right corner.png::CompressedTexture2D::6084175872716137209::1726804607::1726815874::1::::<><>::
 wooden wall vertical.png::CompressedTexture2D::4810645311080937446::1726804607::1726815874::1::::<><>::
 workbench.png::CompressedTexture2D::1729713018258393628::1726804607::1726815874::1::::<><>::
-::res://assets/texture/tileset/::1726804607
+::res://assets/texture/tileset/::1726827111
 bar_counter.png::CompressedTexture2D::5173754858706631029::1726804607::1726815874::1::::<><>::
 tileset.png::CompressedTexture2D::9095649757849202765::1726804607::1726815874::1::::<><>::
-::res://Scene/::1726804607
-game_scene.tscn::PackedScene::3135704542225458181::1726804607::0::1::::<><>::uid://d2uaa1fc42pv6::::res://assets/texture/tileset/tileset.png<>uid://cfyg8ssok31cj::::res://assets/texture/tileset/bar_counter.png
+::res://Scene/::1726827111
+game_scene.tscn::PackedScene::3135704542225458181::1726827111::0::1::::<><>::uid://d2uaa1fc42pv6::::res://assets/texture/tileset/tileset.png<>uid://cfyg8ssok31cj::::res://assets/texture/tileset/bar_counter.png
 TitleScreen.tscn::PackedScene::4956969992966071077::1726804607::0::1::::<><>::res://Script/Title.gd
-::res://Script/::1726804686
-Equipment.gd::GDScript::-1::1726802985::0::1::::<>Node<>::
-Game_Manager.gd::GDScript::-1::1726799008::0::1::::<>Node<>::
-NPC.gd::GDScript::-1::1726799762::0::1::::<>Node<>::
+::res://Script/::1726832788
+Consumable.gd::GDScript::-1::1726824423::0::1::::<>RefCounted<>::
+Equipment.gd::GDScript::-1::1726824423::0::1::::<>Resource<>::
+Game_Manager.gd::GDScript::-1::1726816171::0::1::::<>Node<>::
+Guild.gd::GDScript::-1::1726832788::0::1::::<>RefCounted<>::
+item.gd::GDScript::-1::1726824423::0::1::::<>RefCounted<>::
+Location.gd::GDScript::-1::1726824423::0::1::::<>RefCounted<>::
+MiscItem.gd::GDScript::-1::1726824783::0::1::::Misc<>Resource<>::
+NPC.gd::GDScript::-1::1726832374::0::1::::<>Node<>::
 Title.gd::GDScript::-1::1726797659::0::1::::<>Control<>::
