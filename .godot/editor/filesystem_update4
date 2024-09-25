@@ -7,3 +7,7 @@ res://Script/Consumable.gd
 res://Script/NPC.gd
 res://Script/LLM.gd
 res://Script/Title.gd
+res://Script/Guild.gd
+res://Scene/test.tscn
+res://Script/TestScene.gd
+res://Scene/TitleScreen.tscn
