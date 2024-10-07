@@ -1,0 +1,35 @@
+[33mf312c2b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32matlas[m[33m, [m[1;31morigin/atlas[m[33m)[m HEAD@{0}: reset: moving to f312c2b4aac438e107cbf4a1fbc60acaf279313d
+[33mf51b839[m HEAD@{1}: commit: 更新了乱七八糟的脚本
+[33m858e392[m HEAD@{2}: commit: 更新了队伍管理脚本，gamemanager改名为npcManager，更新了战斗管理脚本
+[33m46e26f4[m HEAD@{3}: commit: 更新了时间脚本
+[33md38a519[m HEAD@{4}: checkout: moving from atlas to atlas
+[33md38a519[m HEAD@{5}: commit: 更新了测试用场景，实现了与llm的通信
+[33m6a23952[m HEAD@{6}: commit: 更新了llm脚本，测试
+[33mcd6ea5f[m HEAD@{7}: checkout: moving from master to atlas
+[33m8fae5a6[m[33m ([m[1;32mmaster[m[33m)[m HEAD@{8}: commit: Save current changes before switching branches
+[33m2463eab[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{9}: rebase (finish): returning to refs/heads/master
+[33m2463eab[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{10}: rebase (continue): push
+[33m70e2a48[m HEAD@{11}: commit: Ignore Godot editor settings and metadata files
+[33mc48893f[m HEAD@{12}: pull origin master --rebase (start): checkout c48893fec976629c89437388b6172cf41c3b0797
+[33mcd6ea5f[m HEAD@{13}: merge atlas: Fast-forward
+[33me2854db[m HEAD@{14}: checkout: moving from atlas to master
+[33mcd6ea5f[m HEAD@{15}: checkout: moving from atlas to atlas
+[33mcd6ea5f[m HEAD@{16}: commit: push
+[33me2854db[m HEAD@{17}: checkout: moving from master to atlas
+[33me2854db[m HEAD@{18}: merge atlas: Fast-forward
+[33mb7e08af[m HEAD@{19}: checkout: moving from atlas to master
+[33me2854db[m HEAD@{20}: commit: push
+[33mb7e08af[m HEAD@{21}: checkout: moving from master to atlas
+[33mb7e08af[m HEAD@{22}: commit: 重新上传代码
+[33m0acf820[m HEAD@{23}: commit: 更新了数据结构脚本
+[33mcfa0b20[m HEAD@{24}: reset: moving to cfa0b202c79de27a902d0cf3bfc8df5f66a2c478
+[33mf312c2b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32matlas[m[33m, [m[1;31morigin/atlas[m[33m)[m HEAD@{25}: pull: Fast-forward
+[33mcfa0b20[m HEAD@{26}: reset: moving to cfa0b202c79de27a902d0cf3bfc8df5f66a2c478
+[33mf312c2b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32matlas[m[33m, [m[1;31morigin/atlas[m[33m)[m HEAD@{27}: commit: 重新提交一下
+[33m76e572b[m HEAD@{28}: pull: Fast-forward
+[33mcfa0b20[m HEAD@{29}: reset: moving to cfa0b202c79de27a902d0cf3bfc8df5f66a2c478
+[33m35d8aca[m HEAD@{30}: commit: 重新推送脚本
+[33mcfa0b20[m HEAD@{31}: reset: moving to cfa0b202c79de27a902d0cf3bfc8df5f66a2c478
+[33m76e572b[m HEAD@{32}: commit: 更新了一部分数据结构的脚本
+[33mcfa0b20[m HEAD@{33}: commit: 上传了一些美术素材
+[33m0a46291[m HEAD@{34}: clone: from https://github.com/Atlas0079/Guild-Master
