@@ -1,136 +1,30 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728224336
-::res://assets/::1726804607
-::res://assets/texture/::1726804607
-::res://assets/texture/character/::1726815875
-acolyte.png::CompressedTexture2D::886803803320051483::1726804607::1726815875::1::::<><>::
-elf female wizard.png::CompressedTexture2D::3474930086557876062::1726804607::1726815875::1::::<><>::
-elf male ranger.png::CompressedTexture2D::6758914128418432370::1726804607::1726815875::1::::<><>::
-female healer.png::CompressedTexture2D::8879727835550113772::1726804607::1726815875::1::::<><>::
-female hunter.png::CompressedTexture2D::1061517866436030466::1726804607::1726815875::1::::<><>::
-female rogue.png::CompressedTexture2D::8234635961163355590::1726804607::1726815875::1::::<><>::
-female tinker.png::CompressedTexture2D::5713219229675560626::1726804607::1726815875::1::::<><>::
-female valkyrie.png::CompressedTexture2D::5106111577711872797::1726804607::1726815875::1::::<><>::
-forest centaur.png::CompressedTexture2D::6242499937561102627::1726804607::1726815875::1::::<><>::
-genetic engineer.png::CompressedTexture2D::7906080895410594509::1726804607::1726815875::1::::<><>::
-gnome female wizard.png::CompressedTexture2D::6737601352602385291::1726804607::1726815875::1::::<><>::
-guard.png::CompressedTexture2D::8586997545211477825::1726804607::1726815875::1::::<><>::
-halfling.png::CompressedTexture2D::954570905430366476::1726804607::1726815875::1::::<><>::
-high priest.png::CompressedTexture2D::2359061840169492003::1726804607::1726815875::1::::<><>::
-holy cleric.png::CompressedTexture2D::6277511463224967651::1726804607::1726815875::1::::<><>::
-lizardman.png::CompressedTexture2D::6571479450661201287::1726804607::1726815875::1::::<><>::
-male barbarian.png::CompressedTexture2D::2014708719067048277::1726804607::1726815875::1::::<><>::
-male explorer.png::CompressedTexture2D::1834508033246112828::1726804607::1726815875::1::::<><>::
-male knight.png::CompressedTexture2D::9166513381703180266::1726804607::1726815875::1::::<><>::
-male mystic.png::CompressedTexture2D::7967177931285132021::1726804607::1726815875::1::::<><>::
-male paladin.png::CompressedTexture2D::4363543636972724670::1726804607::1726815875::1::::<><>::
-male samurai.png::CompressedTexture2D::2734293696640604288::1726804607::1726815875::1::::<><>::
-merchant.png::CompressedTexture2D::7679332269112951005::1726804607::1726815875::1::::<><>::
-Oracle.png::CompressedTexture2D::8970183341447800982::1726804607::1726815875::1::::<><>::
-page.png::CompressedTexture2D::8844913706645010812::1726804607::1726815875::1::::<><>::
-protagonist.png::CompressedTexture2D::2348811853612655907::1726804607::1726815875::1::::<><>::
-quantum mechanic.png::CompressedTexture2D::8961548548971284103::1726804607::1726815875::1::::<><>::
-satyr female shaman.png::CompressedTexture2D::3765735506941915022::1726804607::1726815875::1::::<><>::
-satyr male healer.png::CompressedTexture2D::6805622947106220916::1726804607::1726815875::1::::<><>::
-transmuter.png::CompressedTexture2D::352493069831464892::1726804607::1726815875::1::::<><>::
-undead slayer.png::CompressedTexture2D::4418108515367500765::1726804607::1726815875::1::::<><>::
-::res://assets/texture/enemy/::1726815875
-orc grunt.png::CompressedTexture2D::8489939218496904335::1726804607::1726815875::1::::<><>::
-skeleton.png::CompressedTexture2D::8914960103306944265::1726804607::1726815875::1::::<><>::
-::res://assets/texture/environment/::1726815875
-16x32_pottedplant_beige.png::CompressedTexture2D::6231499803975306473::1726804607::1726815874::1::::<><>::
-16x32_pottedplant_red.png::CompressedTexture2D::2349001278926740200::1726804607::1726815874::1::::<><>::
-32x32_chair01.png::CompressedTexture2D::4462006854734547647::1726804607::1726815874::1::::<><>::
-32x32_chair01_blue.png::CompressedTexture2D::5501997467995365830::1726804607::1726815874::1::::<><>::
-32x32_chair01_red.png::CompressedTexture2D::2604493125624016595::1726804607::1726815874::1::::<><>::
-32x32_chair02.png::CompressedTexture2D::7628509462193208618::1726804607::1726815874::1::::<><>::
-32x32_chair02_blue.png::CompressedTexture2D::5135271582811503149::1726804607::1726815874::1::::<><>::
-32x32_chair02_red.png::CompressedTexture2D::3128525009241414415::1726804607::1726815874::1::::<><>::
-32x32_chair03.png::CompressedTexture2D::4998603003615367421::1726804607::1726815874::1::::<><>::
-32x32_chair03_blue.png::CompressedTexture2D::2961137744629072470::1726804607::1726815874::1::::<><>::
-32x32_chair03_red.png::CompressedTexture2D::1361867729893571931::1726804607::1726815874::1::::<><>::
-32x32_chair04.png::CompressedTexture2D::6658520382047552236::1726804607::1726815874::1::::<><>::
-32x32_chair04_blue.png::CompressedTexture2D::6764525609529257160::1726804607::1726815874::1::::<><>::
-32x32_chair04_red.png::CompressedTexture2D::5509303397106292801::1726804607::1726815874::1::::<><>::
-32x32_table.png::CompressedTexture2D::1509949687259286324::1726804607::1726815874::1::::<><>::
-32x32_table_wcloth.png::CompressedTexture2D::5590822959169915227::1726804607::1726815874::1::::<><>::
-crystal door closed horizontal.png::CompressedTexture2D::4064570392002611618::1726804607::1726815875::1::::<><>::
-crystal door locked vertical.png::CompressedTexture2D::7770903945482944870::1726804607::1726815875::1::::<><>::
-crystal door open horizontal.png::CompressedTexture2D::5433118679724460678::1726804607::1726815875::1::::<><>::
-dirt.png::CompressedTexture2D::4747489860312363903::1726804607::1726815875::1::::<><>::
-granite floor.png::CompressedTexture2D::5085635587320406361::1726804607::1726815875::1::::<><>::
-grass.png::CompressedTexture2D::8740069940034701888::1726804607::1726815875::1::::<><>::
-metal floor.png::CompressedTexture2D::1339424102277099338::1726804607::1726815875::1::::<><>::
-moss.png::CompressedTexture2D::4587619814087824094::1726804607::1726815875::1::::<><>::
-obsidian floor.png::CompressedTexture2D::8559805775461631981::1726804607::1726815875::1::::<><>::
-sewer wall bottom left corner.png::CompressedTexture2D::1379832357259156655::1726804607::1726815875::1::::<><>::
-sewer wall bottom right corner.png::CompressedTexture2D::6634834604802748203::1726804607::1726815875::1::::<><>::
-sewer wall cross.png::CompressedTexture2D::6028580995667989678::1726804607::1726815875::1::::<><>::
-sewer wall end down.png::CompressedTexture2D::2635548072434688441::1726804607::1726815874::1::::<><>::
-sewer wall end left.png::CompressedTexture2D::3104218862454186473::1726804607::1726815874::1::::<><>::
-sewer wall end right.png::CompressedTexture2D::5753486096768668284::1726804607::1726815874::1::::<><>::
-sewer wall end up(1).png::CompressedTexture2D::6547750510046897188::1726804607::1726815874::1::::<><>::
-sewer wall end up.png::CompressedTexture2D::4488750274959974074::1726804607::1726815874::1::::<><>::
-sewer wall horizontal.png::CompressedTexture2D::2260958571142512006::1726804607::1726815874::1::::<><>::
-sewer wall pillar.png::CompressedTexture2D::6370464033642608960::1726804607::1726815874::1::::<><>::
-sewer wall tee down.png::CompressedTexture2D::3909823506921893823::1726804607::1726815874::1::::<><>::
-sewer wall tee left.png::CompressedTexture2D::4430816737296551704::1726804607::1726815874::1::::<><>::
-sewer wall tee right.png::CompressedTexture2D::8351646828272223310::1726804607::1726815874::1::::<><>::
-sewer wall tee up.png::CompressedTexture2D::5164695113886851664::1726804607::1726815874::1::::<><>::
-sewer wall top left corner.png::CompressedTexture2D::5986095044502396755::1726804607::1726815874::1::::<><>::
-sewer wall top right corner.png::CompressedTexture2D::6114626360185077140::1726804607::1726815874::1::::<><>::
-sewer wall vertical.png::CompressedTexture2D::41089156413596778::1726804607::1726815874::1::::<><>::
-stall.png::CompressedTexture2D::3178290476561219951::1726804607::1726815875::1::::<><>::
-stone floor.png::CompressedTexture2D::67285353395018693::1726804607::1726815875::1::::<><>::
-stone path.png::CompressedTexture2D::2500227459360933920::1726804607::1726815875::1::::<><>::
-stone staircase down.png::CompressedTexture2D::6002250208798460980::1726804607::1726815875::1::::<><>::
-stone staircase up.png::CompressedTexture2D::5474316962441050172::1726804607::1726815875::1::::<><>::
-stone wall cross.png::CompressedTexture2D::7248100324664403439::1726804607::1726815875::1::::<><>::
-tree.png::CompressedTexture2D::7110572825065549868::1726804607::1726815875::1::::<><>::
-wooden barrel.png::CompressedTexture2D::809944696868915159::1726804607::1726815875::1::::<><>::
-wooden door closed horizontal.png::CompressedTexture2D::3106723762109616933::1726804607::1726815875::1::::<><>::
-wooden door locked horizontal.png::CompressedTexture2D::5398076072708513051::1726804607::1726815875::1::::<><>::
-wooden door open horizontal.png::CompressedTexture2D::4192802982290265884::1726804607::1726815875::1::::<><>::
-wooden floor.png::CompressedTexture2D::8589624835582731299::1726804607::1726815875::1::::<><>::
-wooden wall bottom left corner.png::CompressedTexture2D::7410298204166486630::1726804607::1726815875::1::::<><>::
-wooden wall bottom right corner.png::CompressedTexture2D::1696537397650915948::1726804607::1726815875::1::::<><>::
-wooden wall cross.png::CompressedTexture2D::9097051081377728678::1726804607::1726815875::1::::<><>::
-wooden wall end down.png::CompressedTexture2D::2215430790484629609::1726804607::1726815875::1::::<><>::
-wooden wall end left.png::CompressedTexture2D::576824505002606910::1726804607::1726815875::1::::<><>::
-wooden wall end right.png::CompressedTexture2D::5661784932971271120::1726804607::1726815875::1::::<><>::
-wooden wall end up.png::CompressedTexture2D::1660030641936764307::1726804607::1726815875::1::::<><>::
-wooden wall horizontal.png::CompressedTexture2D::8429485700129845843::1726804607::1726815875::1::::<><>::
-wooden wall pillar.png::CompressedTexture2D::6246775955747388324::1726804607::1726815875::1::::<><>::
-wooden wall tee down.png::CompressedTexture2D::503517073290880466::1726804607::1726815874::1::::<><>::
-wooden wall tee left.png::CompressedTexture2D::744820270388650121::1726804607::1726815874::1::::<><>::
-wooden wall tee right.png::CompressedTexture2D::4682609695297417310::1726804607::1726815874::1::::<><>::
-wooden wall tee up.png::CompressedTexture2D::2736391837009357198::1726804607::1726815874::1::::<><>::
-wooden wall top left corner.png::CompressedTexture2D::2629142066581842452::1726804607::1726815874::1::::<><>::
-wooden wall top right corner.png::CompressedTexture2D::6084175872716137209::1726804607::1726815874::1::::<><>::
-wooden wall vertical.png::CompressedTexture2D::4810645311080937446::1726804607::1726815874::1::::<><>::
-workbench.png::CompressedTexture2D::1729713018258393628::1726804607::1726815874::1::::<><>::
-::res://assets/texture/tileset/::1726827111
-bar_counter.png::CompressedTexture2D::5173754858706631029::1726804607::1726815874::1::::<><>::
-tileset.png::CompressedTexture2D::9095649757849202765::1726804607::1726815874::1::::<><>::
+::res://::1728354500
+::res://assets/::1728276719
+::res://assets/texture/::1728276719
+::res://assets/texture/environment/::1728276719
 ::res://Dataset/::1728223130
 ::res://Dataset/item/::1728223107
 ::res://Dataset/LLM/::1728223112
 ::res://Dataset/NPC/::1728223130
-::res://Scene/::1728224331
-game_scene.tscn::PackedScene::3135704542225458181::1728224331::0::1::::<><>::uid://d2uaa1fc42pv6::::res://assets/texture/tileset/tileset.png<>uid://cfyg8ssok31cj::::res://assets/texture/tileset/bar_counter.png
-game_scene_test.tscn::PackedScene::7848639214717632351::1728224331::0::1::::<><>::
-test.tscn::PackedScene::7712269863458464839::1728224331::0::1::::<><>::res://Script/TestScene.gd
-TitleScreen.tscn::PackedScene::4956969992966071077::1728224331::0::1::::<><>::res://Script/Title.gd
-::res://Script/::1728223027
-Consumable.gd::GDScript::-1::1726824423::0::1::::<>RefCounted<>::
-Equipment.gd::GDScript::-1::1726824423::0::1::::<>Resource<>::
-Guild.gd::GDScript::-1::1726832788::0::1::::<>RefCounted<>::
-item.gd::GDScript::-1::1726824423::0::1::::<>RefCounted<>::
-LLM.gd::GDScript::-1::1727254123::0::1::::<>Node<>::
-Location.gd::GDScript::-1::1726824423::0::1::::<>RefCounted<>::
-MiscItem.gd::GDScript::-1::1726824783::0::1::::Misc<>Resource<>::
-NPC.gd::GDScript::-1::1727253385::0::1::::<>Node<>::
-NPC_Manager.gd::GDScript::-1::1726816171::0::1::::<>Node<>::
-TestScene.gd::GDScript::-1::1727254226::0::1::::<>Node<>::
-Time_Manager.gd::GDScript::-1::1728196609::0::1::::<>RefCounted<>::
-Title.gd::GDScript::-1::1726797659::0::1::::<>Control<>::
+::res://Scene/::1728352852
+game_scene_test.tscn::PackedScene::7848639214717632351::1728352852::0::1::::<><>::
+test.tscn::PackedScene::7712269863458464839::1728352852::0::1::::<><>::res://Script/TestScene.gd
+TitleScreen.tscn::PackedScene::8274364238886063291::1728352852::0::1::::<><>::res://Script/Title.gd
+::res://Script/::1728352912
+Consumable.gd::GDScript::-1::1728353283::0::1::::Consumable<>Item<>::
+Equipment.gd::GDScript::-1::1728353283::0::1::::Equipment<>Item<>::
+Game_Manager.gd::GDScript::-1::1728276423::0::1::::<>Node<>::
+Guild.gd::GDScript::-1::1728276719::0::1::::<>RefCounted<>::
+Item.gd::GDScript::-1::1728353283::0::1::::Item<>Resource<>::
+LLM.gd::GDScript::-1::1728353283::0::1::::<>Node<>::
+Location.gd::GDScript::-1::1728276952::0::1::::Location<>Node<>::
+MiscItem.gd::GDScript::-1::1728353283::0::1::::MiscItem<>Item<>::
+NPC.gd::GDScript::-1::1728353283::0::1::::<>Node<>::
+TestScene.gd::GDScript::-1::1728276719::0::1::::<>Node<>::
+Title.gd::GDScript::-1::1728276423::0::1::::<>Control<>::
+::res://Script/Manager/::1728276719
+BattleManager.gd::GDScript::-1::1728276952::0::1::::BattleManager<>Node<>::
+NPCManager.gd::GDScript::-1::1728276956::0::1::::<>Node<>::
+TeamManager.gd::GDScript::-1::1728276952::0::1::::TeamManager<>Node<>::
+TimeManager.gd::GDScript::-1::1728276952::0::1::::TimeManager<>Node<>::

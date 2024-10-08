@@ -1,16 +1,4 @@
 extends Node
-<<<<<<< HEAD:script/NPC.gd
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
-=======
 const Equipment = preload("res://Script/Equipment.gd")
 const Consumable = preload("res://Script/Consumable.gd")
 const MiscItem = preload("res://Script/MiscItem.gd")  
@@ -182,7 +170,6 @@ func update_equipment():
 # 检查是否满足装备条件
 func meets_conditions(conditions: Dictionary) -> bool:
 	for attr in conditions.keys():
-		if self.get(attr) < conditions[attr]:
+		if self.get(attr) < conditions[attr]: 
 			return false
 	return true
->>>>>>> f51b83912b8e69dc1229e382c7702bc8164540be:Script/NPC.gd

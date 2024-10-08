@@ -17,8 +17,11 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-GameManager="*res://Script/Game_Manager.gd"
 LLM="*res://Script/LLM.gd"
+TeamManager="*res://Script/Manager/TeamManager.gd"
+NpcManager="*res://Script/Manager/NPCManager.gd"
+BattleManager="*res://Script/Manager/BattleManager.gd"
+TimeManager="*res://Script/Manager/TimeManager.gd"
 
 [rendering]
 

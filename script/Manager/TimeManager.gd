@@ -2,8 +2,6 @@
 
 extends Node
 
-class_name TimeManager
-
 signal time_changed(hour, minute)
 signal day_changed(day)
 

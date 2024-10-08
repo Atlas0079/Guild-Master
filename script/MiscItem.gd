@@ -1,15 +1,10 @@
 # MiscItem.gd
-extends Resource
-
-var item_name: String = ""
-var description: String = ""
-var item_value: int = 0
+extends Item
+class_name MiscItem
 
 func _init(_name: String, _description: String, _item_value: int):
-    item_name = _name
-    description = _description
-    item_value = _item_value
+    super(_name, _description, _item_value, ItemType.MISC)
 
-func examine():
-    # 实现查看杂物详情的逻辑
-    return description
+func use(character):
+    # 杂物通常不能直接使用，可以实现一些特殊逻辑或者返回提示信息
+    print("这个物品不能直接使用。")
