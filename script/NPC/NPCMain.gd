@@ -1,10 +1,9 @@
 extends Node
-const Equipment = preload("res://Script/Equipment.gd")
-const Consumable = preload("res://Script/Consumable.gd")
-const MiscItem = preload("res://Script/MiscItem.gd")  
 
 # 属性
 var npc_name: String
+
+# 力量，智力，敏捷，魅力，体质，感知
 var strength: int = 10
 var intelligence: int = 10
 var dexterity: int = 10
@@ -12,16 +11,24 @@ var charisma: int = 10
 var constitution: int = 10
 var perception: int = 10
 
-# 状态
+var speed: int = 10
+
+# 生命值，魔法值，体力值，压力值
 var health: int = 100
 var mana: int = 50
 var stamina: int = 50
 var stress: int = 0
 
+# 特质
+var traits: Dictionary = {}
+# 状态
+var states: Dictionary = {}
+
 # 装备 (武器，护甲，饰品)
 var weapon: Equipment = null
 var armor: Equipment = null
 var accessories: Array = []
+
 # 背包系统
 var inventory: Array = []
 var default_inventory_size: int = 10
@@ -161,7 +168,7 @@ func check_special_equipment_effects():
 	for accessory in accessories:
 		if "inventory_boost" in accessory.attribute_boosts:
 			capacity_boost += accessory.attribute_boosts["inventory_boost"]
-	update_inventory_capacity(default_inventory_size + capacity_boost)  # 基础容量加上增益
+	update_inventory_capacity(default_inventory_size + capacity_boost)  #基础容量加上增益
 
 # 在装备或卸下物品后调用此函数
 func update_equipment():

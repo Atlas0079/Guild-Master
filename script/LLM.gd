@@ -11,7 +11,7 @@ func _ready():
 	add_child(http_request)
 	http_request.request_completed.connect(_on_request_completed)
 
-func send_message(user_message: String, callback: Callable):
+func send_message(user_message: String):
 	var headers = [
 		"Content-Type: application/json",
 		"Authorization: Bearer " + API_KEY
@@ -27,7 +27,6 @@ func send_message(user_message: String, callback: Callable):
 		return
 	
 	await http_request.request_completed
-	# 注意：我们不在这里直接调用回调，而是在_on_request_completed中调用
 
 func _on_request_completed(_result, response_code: int, _headers, body: PackedByteArray):
 	if response_code != 200:
@@ -39,24 +38,23 @@ func _on_request_completed(_result, response_code: int, _headers, body: PackedBy
 		if "choices" in json and json.choices.size() > 0:
 			var llm_response = json.choices[0].message.content
 			print("LLM响应：", llm_response)
-			# 发出一个信号，包含LLM的响应
 			response_received.emit(llm_response)
 		else:
 			push_error("LLM响应格式不正确")
 	else:
 		push_error("JSON解析错误")
 
-# 定义一个新的信号
 signal response_received(response: String)
 
-# 测试函数
 func test_llm_interaction():
 	print("正在发送测试消息到LLM...")
-	send_message("你好，能给我讲个短笑话吗？", Callable(self, "on_test_response"))
+	response_received.connect(on_test_response)
+	send_message("你好，能给我讲个短笑话吗？")
 
-func on_test_response():
-	print("LLM交互测试完成。")
-	
+func on_test_response(response: String):
+	print("LLM交互测试完成。收到回复：", response)
+	response_received.disconnect(on_test_response)
+
 '''
 记忆精简llm提示词：
 
