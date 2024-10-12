@@ -1,38 +1,73 @@
+# script/NPC/NPCEquipment.gd
 extends Node
+
+class_name NPCEquipment
 
 var weapon: Equipment = null
 var armor: Equipment = null
 var accessories: Array = []
 
+var npc: NPC
+
+func init(_npc: NPC):
+    npc = _npc
+
 func equip_weapon(new_weapon: Equipment):
-    # 实现装备武器的逻辑
-    pass
+    if meets_conditions(new_weapon.conditions):
+        weapon = new_weapon
+        apply_equipment_effects()
 
 func equip_armor(new_armor: Equipment):
-    # 实现装备护甲的逻辑
-    pass
+    if meets_conditions(new_armor.conditions):
+        armor = new_armor
+        apply_equipment_effects()
 
 func add_accessory(new_accessory: Equipment):
-    # 实现添加饰品的逻辑
-    pass
+    if meets_conditions(new_accessory.conditions) and accessories.size() < 3:
+        accessories.append(new_accessory)
+        apply_equipment_effects()
 
 func remove_weapon():
-    # 实现卸下武器的逻辑
-    pass
+    weapon = null
+    apply_equipment_effects()
 
 func remove_armor():
-    # 实现卸下护甲的逻辑
-    pass
+    armor = null
+    apply_equipment_effects()
 
 func remove_accessory(accessory: Equipment):
-    # 实现卸下饰品的逻辑
-    pass
+    var index = accessories.find(accessory)
+    if index != -1:
+        accessories.remove_at(index)  # 使用 remove_at() 替代 remove()
+        apply_equipment_effects()
 
 func update_equipment():
-    # 实现更新装备效果的逻辑
-    pass
+    apply_equipment_effects()
 
 func meets_conditions(conditions: Dictionary) -> bool:
-    # 实现检查装备条件的逻辑
-    pass
-    return false  # 临时返回值，实现逻辑后应该返回实际的结果
+    for condition in conditions:
+        if not npc.attributes.get(condition) >= conditions[condition]:
+            return false
+    return true
+
+func apply_equipment_effects():
+    # 重置属性
+    npc.attributes.update_derived_stats()
+    
+    # 应用武器效果
+    if weapon:
+        apply_item_effects(weapon)
+    
+    # 应用护甲效果
+    if armor:
+        apply_item_effects(armor)
+    
+    # 应用饰品效果
+    for accessory in accessories:
+        apply_item_effects(accessory)
+
+func apply_item_effects(item: Equipment):
+    for effect in item.effects:
+        var attribute = effect.attribute
+        var value = effect.value
+        npc.attributes.set(attribute, npc.attributes.get(attribute) + value)

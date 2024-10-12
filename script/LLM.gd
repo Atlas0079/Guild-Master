@@ -2,7 +2,10 @@
 extends Node
 
 const API_URL = "https://35.aigcbest.top/v1/chat/completions"
+#const API_URL = "https://api.mistral.ai/v1/chat/completions"
+
 const API_KEY = "sk-BIBKYxlMfEJLwFMi89Cc39D72a434760A326501f171987Fc"
+#const API_KEY = "uMqbvbgVx1bMdGw7MfqFnvVwyuNL9ggO"
 
 var http_request: HTTPRequest
 
@@ -18,6 +21,7 @@ func send_message(user_message: String):
 	]
 	var body = JSON.stringify({
 		"model": "gpt-4o-mini",
+		#"model": "mistral-large-2407",
 		"messages": [{"role": "user", "content": user_message}]
 	})
 	
