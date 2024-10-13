@@ -28,6 +28,7 @@ theme_override_font_sizes/font_size = 30
 text = "111"
 
 [node name="EmbeddingButton" type="Button" parent="."]
+layout_mode = 0
 offset_left = 631.0
 offset_top = 138.0
 offset_right = 1119.0

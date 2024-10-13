@@ -1,7 +1,5 @@
-# script/NPC/NPCEquipment.gd
+# Script/NPC/NPCEquipment.gd
 extends Node
-
-class_name NPCEquipment
 
 var weapon: Equipment = null
 var armor: Equipment = null

@@ -1,4 +1,4 @@
-# script/NPC/NPCMemory.gd
+# Script/NPC/NPCMemory.gd
 extends Node
 
 var relationships: Dictionary = {}

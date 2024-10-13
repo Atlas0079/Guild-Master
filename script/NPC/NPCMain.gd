@@ -2,11 +2,11 @@ extends Node
 
 class_name NPC
 
-const NPCAttributesScript = preload("res://script/NPC/NPCAttributes.gd")
-const NPCInventoryScript = preload("res://script/NPC/NPCInventory.gd")
-const NPCEquipmentScript = preload("res://script/NPC/NPCEquipment.gd")
-const NPCMemoryScript = preload("res://script/NPC/NPCMemory.gd")
-const NPCTraitsStatesScript = preload("res://script/NPC/NPCTraitsStates.gd")
+const NPCAttributesScript = preload("res://Script/NPC/NPCAttributes.gd")
+const NPCInventoryScript = preload("res://Script/NPC/NPCInventory.gd")
+const NPCEquipmentScript = preload("res://Script/NPC/NPCEquipment.gd")
+const NPCMemoryScript = preload("res://Script/NPC/NPCMemory.gd")
+const NPCTraitsStatesScript = preload("res://Script/NPC/NPCTraitsStates.gd")
 
 var attributes: NPCAttributesScript
 var inventory: NPCInventoryScript
@@ -25,6 +25,5 @@ func init(_npc_name: String, _race: String, _strength: int, _intelligence: int, 
     attributes.init(_npc_name, _race, _strength, _intelligence, _dexterity, _charisma, _constitution, _perception)
     inventory.init()
     equipment.init(self)
-
 
 # 其他方法可以根据需要添加，大多数操作现在会调用相应组件的方法

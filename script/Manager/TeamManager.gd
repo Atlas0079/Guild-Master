@@ -3,8 +3,8 @@
 extends Node
 
 
-const ADVENTURER_SAVE_PATH = "user://adventurer_teams.json"
-const MONSTER_SAVE_PATH = "user://monster_teams.json"
+const ADVENTURER_SAVE_PATH = "res://Dataset/adventurer_teams.json"
+const MONSTER_SAVE_PATH = "res://Dataset/monster_teams.json"
 
 var adventurer_teams = {}
 var monster_teams = {}
