@@ -46,27 +46,32 @@ func _on_request_completed(_result, response_code: int, _headers, body: PackedBy
 
 signal response_received(response: String)
 
-func test_llm_interaction():
-	print("正在发送测试消息到LLM...")
-	response_received.connect(on_test_response)
-	send_message("你好，能给我讲个短笑话吗？")
+func get_memory_embedding(memory_content: String) -> Array:
+	var headers = [
+		"Content-Type: application/json",
+		"Authorization: Bearer " + API_KEY
+	]
+	var body = JSON.stringify({
+		"model": "text-embedding-ada-002",
+		"input": memory_content
+	})
+	
+	var error = http_request.request("https://35.aigcbest.top/v1/embeddings", headers, HTTPClient.METHOD_POST, body)
+	if error != OK:
+		push_error("获取嵌入向量时发生错误。")
+		return []
+	
+	var result = await http_request.request_completed
+	var response_code = result[1]
+	var response_body = result[3]
+	
+	if response_code != 200:
+		push_error("获取嵌入向量失败。状态码：" + str(response_code))
+		return []
 
-func on_test_response(response: String):
-	print("LLM交互测试完成。收到回复：", response)
-	response_received.disconnect(on_test_response)
-
-'''
-记忆精简llm提示词：
-
-你的任务是接受一段来自角色扮演游戏的内容，你将负责精简这些信息成为记忆。
-你不需要做出回应，而是将对话内容提炼为记忆。
-你必须保留关键要素，精简掉无关的抽象描述和高维表达。
-
-使用{}分隔每个记忆条目。不需要添加有关时间地点的条目（系统会自动添加）
-
-对于每个记忆，你需要给它评估重要等级，1为纯粹日常的琐事，10为引起极度情绪波动的重大事件。
-
-例子：{在舞会上和爱丽丝跳舞;5}
-
-对于本次，你将以{莉娜·星语}的视角储存记忆
-'''
+	var json = JSON.parse_string(response_body.get_string_from_utf8())
+	if json != null and "data" in json and json.data.size() > 0:
+		return json.data[0].embedding
+	else:
+		push_error("解析嵌入向量响应时出错")
+		return []
