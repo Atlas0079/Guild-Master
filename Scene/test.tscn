@@ -13,12 +13,12 @@ script = ExtResource("1_a4w4h")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 898.0
-offset_top = 15.0
-offset_right = 1146.0
-offset_bottom = 106.0
+offset_left = 781.0
+offset_top = 17.0
+offset_right = 1120.0
+offset_bottom = 108.0
 theme_override_font_sizes/font_size = 60
-text = "测试按钮"
+text = "llm测试按钮"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
@@ -26,3 +26,11 @@ offset_right = 40.0
 offset_bottom = 23.0
 theme_override_font_sizes/font_size = 30
 text = "111"
+
+[node name="EmbeddingButton" type="Button" parent="."]
+offset_left = 631.0
+offset_top = 138.0
+offset_right = 1119.0
+offset_bottom = 229.0
+theme_override_font_sizes/font_size = 60
+text = "嵌入向量测试按钮"
