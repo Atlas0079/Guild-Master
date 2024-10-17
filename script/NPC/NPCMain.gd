@@ -8,6 +8,7 @@ const NPCEquipmentScript = preload("res://Script/NPC/NPCEquipment.gd")
 const NPCMemoryScript = preload("res://Script/NPC/NPCMemory.gd")
 const NPCTraitsStatesScript = preload("res://Script/NPC/NPCTraitsStates.gd")
 
+
 var attributes: NPCAttributesScript
 var inventory: NPCInventoryScript
 var equipment: NPCEquipmentScript
