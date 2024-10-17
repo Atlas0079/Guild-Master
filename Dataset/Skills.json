@@ -1,0 +1,27 @@
+{
+  "1001": {
+    "id": 1001,
+    "name": "火球术",
+    "description": "向敌人发射一个火球",
+    "weight": 100,
+    "use_conditions": [
+      {"type": "mp_cost", "value": 20}
+    ],
+    "effects": [
+      {"type": "damage", "value": 50},
+      {"type": "burn", "value": 10, "duration": 3}
+    ]
+  },
+  "1002": {
+    "id": 1002,
+    "name": "治疗术",
+    "description": "恢复目标生命值",
+    "weight": 80,
+    "use_conditions": [
+      {"type": "mp_cost", "value": 30}
+    ],
+    "effects": [
+      {"type": "heal", "value": 100}
+    ]
+  }
+}

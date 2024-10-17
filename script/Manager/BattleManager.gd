@@ -87,3 +87,5 @@ func get_all_battlefield_ids() -> Array:
 
 func get_battlefield_count() -> int:
 	return battlefields.size()
+
+
