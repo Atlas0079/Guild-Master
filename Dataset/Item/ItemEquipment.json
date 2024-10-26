@@ -1,0 +1,49 @@
+{
+  "10001": {
+    "name": "精钢长剑",
+    "description": "一把锋利的精钢长剑,挥舞起来得心应手。",
+    "item_value": 500,
+    "equipment_type": "weapon",
+    "equipment_category": "melee",
+    "attribute_boosts": {
+      "strength": 3,
+      "dexterity": 2
+    },
+    "equip_conditions": {
+      "strength": 10
+    },
+    "special_skill": [1001]
+  },
+
+  "10002": {
+    "name": "魔法长袍",
+    "description": "一件蕴含魔力的长袍,可以增强施法者的法术威力。",
+    "item_value": 800,
+    "equipment_type": "armor",
+    "equipment_category": "lightarmor",
+    "attribute_boosts": {
+      "intelligence": 5,
+      "wisdom": 3
+    },
+    "equip_conditions": {
+      "intelligence": 15
+    },
+    "special_skill": [2001]
+  },
+  
+  "10003": {
+    "name": "敏捷皮靴",
+    "description": "一双轻盈的皮靴,穿上后可以提高移动速度和灵活性。",
+    "item_value": 300,
+    "equipment_type": "accessory",
+    "equipment_category": "boot",
+    "attribute_boosts": {
+      "dexterity": 4,
+      "agility": 3
+    },
+    "equip_conditions": {
+      "dexterity": 12
+    },
+    "special_skill": []
+  }
+}

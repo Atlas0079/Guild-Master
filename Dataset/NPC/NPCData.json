@@ -1,0 +1,209 @@
+{
+	"00001": {
+		"action_point": 6,
+		"action_threshold": 10,
+		"active_skills": {
+			"0005": {
+				"timing": [
+					"enemy_hp_above_half"
+				],
+				"weight": 1
+			}
+		},
+		"charisma": 16,
+		"constitution": 13,
+		"creature_type": "adventurer",
+		"current_energy": 100,
+		"current_health": 130,
+		"current_mana": 70,
+		"current_qi": 70,
+		"current_stamina": 60,
+		"current_stress": 20,
+		"dexterity": 10,
+		"equipment": {
+			"accessories": [
+				"守护者之戒"
+			],
+			"armor": "魔法长袍",
+			"weapon": "精钢长剑"
+		},
+		"intelligence": 14,
+		"inventory": [
+			"望远镜"
+		],
+		"inventory_capacity": 10,
+		"learned_skills": [
+			"0001",
+			"0002",
+			"0003",
+			"0004",
+			"0005"
+		],
+		"location": "平原",
+		"magic_attack": 5,
+		"magic_defense": 5,
+		"max_energy": 100,
+		"max_health": 130,
+		"max_mana": 70,
+		"max_qi": 70,
+		"max_stamina": 100,
+		"max_stress": 100,
+		"money": 100,
+		"name": "初始冒险者",
+		"perception": 15,
+		"physical_attack": 15,
+		"physical_defense": 10,
+		"race": "人类",
+		"states": [
+			{
+				"burn": 3
+			}
+		],
+		"strength": 12,
+		"traits": [
+			"0001",
+			"0002"
+		]
+	},
+	"00002": {
+		"action_point": 4,
+		"action_threshold": 12,
+		"active_skills": {
+			"0001": {
+				"timing": [
+					"self_mana_above_50_percent"
+				],
+				"weight": 3
+			},
+			"0002": {
+				"timing": [
+					"ally_hp_below_50_percent"
+				],
+				"weight": 2
+			}
+		},
+		"charisma": 14,
+		"constitution": 10,
+		"creature_type": "魔法师",
+		"current_energy": 90,
+		"current_health": 0,
+		"current_mana": 120,
+		"current_qi": 60,
+		"current_stamina": 80,
+		"current_stress": 30,
+		"dexterity": 12,
+		"equipment": {
+			"accessories": [
+				"智慧之眼"
+			],
+			"armor": "星辰长袍",
+			"weapon": "星光法杖"
+		},
+		"intelligence": 18,
+		"inventory": [
+			"魔法卷轴",
+			"法力药水"
+		],
+		"inventory_capacity": 8,
+		"learned_skills": [
+			"0101",
+			"0102",
+			"0103",
+			"0104",
+			"0105"
+		],
+		"location": "魔法塔",
+		"magic_attack": 20,
+		"magic_defense": 15,
+		"max_energy": 90,
+		"max_health": 100,
+		"max_mana": 120,
+		"max_qi": 60,
+		"max_stamina": 80,
+		"max_stress": 100,
+		"money": 150,
+		"name": "星辰法师",
+		"perception": 16,
+		"physical_attack": 5,
+		"physical_defense": 8,
+		"race": "精灵",
+		"states": [
+			{
+				"silence": 2
+			},
+			{
+				"burn": 3
+			}
+		],
+		"strength": 8,
+		"traits": [
+			"0101",
+			"0102"
+		]
+	},
+	"00003": {
+		"action_point": 8,
+		"action_threshold": 9,
+		"active_skills": {
+			"0005": {
+				"timing": [],
+				"weight": 2
+			}
+		},
+		"charisma": 8,
+		"constitution": 16,
+		"creature_type": "战士",
+		"current_energy": 110,
+		"current_health": 180,
+		"current_mana": 40,
+		"current_qi": 90,
+		"current_stamina": 100,
+		"current_stress": 10,
+		"dexterity": 12,
+		"equipment": {
+			"accessories": [
+				"坚韧护符"
+			],
+			"armor": "山岳重甲",
+			"weapon": "巨型战斧"
+		},
+		"intelligence": 10,
+		"inventory": [
+			"治疗药水",
+			"磨刀石"
+		],
+		"inventory_capacity": 12,
+		"learned_skills": [
+			"0201",
+			"0202",
+			"0203",
+			"0204",
+			"0205"
+		],
+		"location": "山脉",
+		"magic_attack": 3,
+		"magic_defense": 8,
+		"max_energy": 110,
+		"max_health": 180,
+		"max_mana": 40,
+		"max_qi": 90,
+		"max_stamina": 120,
+		"max_stress": 100,
+		"money": 80,
+		"name": "山岳守卫",
+		"perception": 14,
+		"physical_attack": 22,
+		"physical_defense": 18,
+		"race": "矮人",
+		"states": [
+			{
+				"berserk": 2
+			}
+		],
+		"strength": 18,
+		"traits": [
+			"0201",
+			"0202"
+		]
+	}
+}

@@ -1,0 +1,29 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Cereal Fish"
+run/main_scene="res://Scenes/Title.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+BattleManager="*res://Script/Manager/BattleManager.gd"
+NPCManager="*res://Script/Manager/NPCManager.gd"
+SkillManager="*res://Script/Manager/SkillManager.gd"
+TimeManager="*res://Script/Manager/TimeManager.gd"
+LLM="*res://Script/LLM.gd"
+DataManager="*res://Script/Manager/DataManager.gd"
+
+[rendering]
+
+renderer/rendering_method="mobile"

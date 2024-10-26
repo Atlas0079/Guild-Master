@@ -1,0 +1,146 @@
+{
+  "10001": {
+    "creature_type": "monster",
+
+    "name": "哥布林",
+    "race": "哥布林",
+
+	  "strength": 12,
+	  "intelligence": 14,
+	  "dexterity": 10,
+	  "charisma": 16,
+	  "constitution": 13,
+	  "perception": 15,
+
+	  "max_health": 130,
+	  "current_health": 130,
+	  "max_mana": 70,
+	  "current_mana": 70,
+	  "max_qi": 70,
+	  "current_qi": 70,
+
+    "physical_attack": 15,
+    "magic_attack": 5,
+    "physical_defense": 10,
+    "magic_defense": 5,
+
+    "action_threshold": 10,
+	  "action_point": 0,
+
+    "active_skills": {
+      "0005": {
+        "weight": 2,
+        "timing": []
+      }
+    },
+
+	  "equipment": {
+		"weapon": "破损弯刀",
+		"armor": null,
+		"accessories": ["兽骨项链"]
+	  },
+
+    "traits": ["0001", "0002"],
+	  "states": [
+		{"burn": 3}
+    ]
+  },
+
+  "10002": {
+    "creature_type": "monster",
+
+    "name": "巨魔",
+    "race": "巨魔",
+
+    "strength": 18,
+    "intelligence": 8,
+    "dexterity": 12,
+    "charisma": 6,
+    "constitution": 16,
+    "perception": 10,
+
+    "max_health": 200,
+    "current_health": 200,
+    "max_mana": 40,
+    "current_mana": 40,
+    "max_qi": 80,
+    "current_qi": 80,
+
+    "physical_attack": 25,
+    "magic_attack": 3,
+    "physical_defense": 18,
+    "magic_defense": 8,
+
+    "action_threshold": 12,
+    "action_point": 0,
+
+    "active_skills": {
+      "0005": {
+        "weight": 2,
+        "timing": []
+      }
+    },
+
+    "equipment": {
+      "weapon": "巨型木棒",
+      "armor": "兽皮护甲",
+      "accessories": ["力量护符"]
+    },
+
+    "traits": ["0003", "0004"],
+    "states": [
+      {"burn": 2}
+    ]
+  },
+
+  "10003": {
+    "creature_type": "monster",
+
+    "name": "精灵法师",
+    "race": "精灵",
+
+    "strength": 8,
+    "intelligence": 20,
+    "dexterity": 14,
+    "charisma": 15,
+    "constitution": 10,
+    "perception": 18,
+
+    "max_health": 100,
+    "current_health": 100,
+    "max_mana": 150,
+    "current_mana": 150,
+    "max_qi": 60,
+    "current_qi": 60,
+
+    "physical_attack": 5,
+    "magic_attack": 30,
+    "physical_defense": 8,
+    "magic_defense": 20,
+
+    "action_threshold": 8,
+    "action_point": 0,
+
+    "active_skills": {
+      "0001": {
+        "weight": 2,
+        "timing": []
+      },
+      "0002": {
+        "weight": 1,
+        "timing": ["ally_count_below_2"]
+      }
+    },
+
+    "equipment": {
+      "weapon": "魔法权杖",
+      "armor": "星光长袍",
+      "accessories": ["智慧宝石", "法力增幅器"]
+    },
+
+    "traits": ["0005", "0006"],
+    "states": [
+      {"burn": 1}
+    ]
+  }
+}

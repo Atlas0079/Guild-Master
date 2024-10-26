@@ -1,0 +1,144 @@
+{
+	"10001": {
+		"action_point": 0,
+		"action_threshold": 10,
+		"active_skills": {
+			"0005": {
+				"timing": [],
+				"weight": 2
+			}
+		},
+		"charisma": 16,
+		"constitution": 13,
+		"creature_type": "monster",
+		"current_health": 130,
+		"current_mana": 70,
+		"current_qi": 70,
+		"dexterity": 10,
+		"equipment": {
+			"accessories": [
+				"兽骨项链"
+			],
+			"armor": null,
+			"weapon": "破损弯刀"
+		},
+		"intelligence": 14,
+		"magic_attack": 5,
+		"magic_defense": 5,
+		"max_health": 130,
+		"max_mana": 70,
+		"max_qi": 70,
+		"name": "哥布林",
+		"perception": 15,
+		"physical_attack": 15,
+		"physical_defense": 10,
+		"race": "哥布林",
+		"states": [
+			{
+				"burn": 3
+			}
+		],
+		"strength": 12,
+		"traits": [
+			"0001",
+			"0002"
+		]
+	},
+	"10002": {
+		"action_point": 0,
+		"action_threshold": 12,
+		"active_skills": {
+			"0005": {
+				"timing": [],
+				"weight": 2
+			}
+		},
+		"charisma": 6,
+		"constitution": 16,
+		"creature_type": "monster",
+		"current_health": 200,
+		"current_mana": 40,
+		"current_qi": 80,
+		"dexterity": 12,
+		"equipment": {
+			"accessories": [
+				"力量护符"
+			],
+			"armor": "兽皮护甲",
+			"weapon": "巨型木棒"
+		},
+		"intelligence": 8,
+		"magic_attack": 3,
+		"magic_defense": 8,
+		"max_health": 200,
+		"max_mana": 40,
+		"max_qi": 80,
+		"name": "巨魔",
+		"perception": 10,
+		"physical_attack": 25,
+		"physical_defense": 18,
+		"race": "巨魔",
+		"states": [
+			{
+				"burn": 2
+			}
+		],
+		"strength": 18,
+		"traits": [
+			"0003",
+			"0004"
+		]
+	},
+	"10003": {
+		"action_point": 0,
+		"action_threshold": 8,
+		"active_skills": {
+			"0001": {
+				"timing": [],
+				"weight": 2
+			},
+			"0002": {
+				"timing": [
+					"ally_count_below_2"
+				],
+				"weight": 1
+			}
+		},
+		"charisma": 15,
+		"constitution": 10,
+		"creature_type": "monster",
+		"current_health": 100,
+		"current_mana": 150,
+		"current_qi": 60,
+		"dexterity": 14,
+		"equipment": {
+			"accessories": [
+				"智慧宝石",
+				"法力增幅器"
+			],
+			"armor": "星光长袍",
+			"weapon": "魔法权杖"
+		},
+		"intelligence": 20,
+		"magic_attack": 30,
+		"magic_defense": 20,
+		"max_health": 100,
+		"max_mana": 150,
+		"max_qi": 60,
+		"name": "精灵法师",
+		"perception": 18,
+		"physical_attack": 5,
+		"physical_defense": 8,
+		"race": "精灵",
+		"states": [
+			{
+				"burn": 1
+			}
+		],
+		"strength": 8,
+		"traits": [
+			"0005",
+			"0006"
+		]
+	}
+}
